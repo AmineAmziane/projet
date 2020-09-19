@@ -11,6 +11,9 @@ const useStyles = makeStyles({
     textAlign:'center',
     display:'flex',
     border:(props.selected)?'1px solid #2E5BCC':'none',
+    '@media (max-width: 780px)' : {
+        width: '30%',
+    }  
   }),
   img : {
     width:'100%',

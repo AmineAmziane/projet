@@ -58,7 +58,10 @@ const useStyles = makeStyles({
     fontSize:16,
     color:'#2E5BCC ',
     fontWeight:600,
-    fontFamily: 'orkneylight'
+    fontFamily: 'orkneylight',
+    '@media (max-width: 550px)' : {
+        width: '30%',
+    }  
   }
 });
 const HtmlTooltip = withStyles((theme) => ({

@@ -6,7 +6,6 @@ import Icon2 from './../assets/images/svg2.svg';
 import Icon3 from './../assets/images/svg3.svg';
 import Icon4 from './../assets/images/svg4.svg';
 import Icon5 from './../assets/images/svg5.svg';
-import 'fontsource-roboto';
 const useStyles = makeStyles({
   cards:{
   	width:'100%',

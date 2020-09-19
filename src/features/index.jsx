@@ -13,8 +13,9 @@ const useStyles = makeStyles({
     padding:'3em',
     borderRadius:10,
     '@media (max-width: 780px)' : {
-        width: '95%',
-        margin:'0',
+        width: '80%',
+        margin:'4em auto',
+        padding:'1em 2em',
     }
   }
 });

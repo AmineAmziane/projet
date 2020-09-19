@@ -1,6 +1,6 @@
 import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
-import Title from './../pattern/title.jsx';
+import Title from './../components/title.jsx';
 import TextField from '@material-ui/core/TextField';
 
 const CustomTextField = withStyles({

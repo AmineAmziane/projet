@@ -2,8 +2,8 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import Cards from './../pattern/cards.jsx';
-import Title from './../pattern/title.jsx';
+import Cards from './../components/cards.jsx';
+import Title from './../components/title.jsx';
 
 const useStyles = makeStyles({
   root: {
@@ -28,6 +28,9 @@ const useStyles = makeStyles({
     textTransform: 'none',
     borderRadius:5,
     fontFamily: 'orkneymed',
+    '@media (max-width: 600px)' : {
+        width: '100px',
+    }  
   },
   btnOui:props=>({
   	color:(props.button)?'#fff':'#2E5BCC',
@@ -59,10 +62,10 @@ const Head = () => {
       </Typography>
       <Title text="La session sera t-elle guidée par un animateur ?
      " />
-      <Button variant="primary" color="primary"  className={`${classes.btn} ${classes.btnOui}`} button={1} onClick={()=>{setbutton(true)}}>
+      <Button variant="contained" color="primary"  className={`${classes.btn} ${classes.btnOui}`} button={1} onClick={()=>{setbutton(true)}}>
         Oui
       </Button>
-      <Button variant="primary" color="primary" className={`${classes.btn} ${classes.btnNon}`} button={0} onClick={()=>{setbutton(false)}}>
+      <Button variant="contained" color="primary" className={`${classes.btn} ${classes.btnNon}`} button={0} onClick={()=>{setbutton(false)}}>
         Non
       </Button>
       <Title text="Comment se déroulera la session ? " />

@@ -1,6 +1,6 @@
 import React from 'react';
-import SliderA from './../pattern/slider.jsx';
-import Title from './../pattern/title.jsx';
+import SliderA from './../components/slider.jsx';
+import Title from './../components/title.jsx';
 
 const marks = [
   '10 min','20 min','30 min','40 min','50 min','1h','1h30','2h','2h30','3h','3h30','4h','4h30','5h','1jour'
