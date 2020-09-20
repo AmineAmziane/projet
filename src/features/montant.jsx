@@ -31,6 +31,9 @@ const useStyles = makeStyles({
   h6:{
     margin:'0 1em',
     fontFamily: 'orkneymed',
+    '@media (max-width: 400px)' : {
+        fontSize:12
+     }  
   },
   subtitle1:{
     margin:'1.65em 0 ',

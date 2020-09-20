@@ -55,6 +55,9 @@ const useStyles = makeStyles({
     height:65,
     borderBottomLeftRadius:10,
     borderBottomRightRadius:10,
+    display:'flex',
+    flexDirection:'column',
+    alignItems:'center',
     '@media (max-width: 780px)' : {
         height:'100px',
     },
@@ -73,10 +76,10 @@ const Card = ({title,exp,selected,img,onClick}) => {
          <img src={img} className={classes.img} alt="" />
         </div>
         <div className={classes.infodiv}>
-        <Typography variant="subtitle1" className={classes.title} gutterBottom>
+        <Typography variant="subtitle1" className={classes.title} align="center"gutterBottom>
         {title}
         </Typography>
-        <Typography variant="subtitle1" className={  classes.exp} gutterBottom>
+        <Typography variant="subtitle1" className={  classes.exp} align="center" gutterBottom>
           {exp}
         </Typography>
         </div>

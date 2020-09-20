@@ -1,5 +1,5 @@
 import React from 'react';
-import Index from './features/';
+import Index from './page/';
 import './App.css';
 
 function App() {

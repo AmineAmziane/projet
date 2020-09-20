@@ -1,9 +1,9 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Head from './head.jsx';
-import Body from './body.jsx';
-import Foot from './foot.jsx';
-import Montant from './montant.jsx';
+import Head from './../features/head.jsx';
+import Body from './../features/body.jsx';
+import Foot from './../features/foot.jsx';
+import Montant from './../features/montant.jsx';
 
 const useStyles = makeStyles({
   root: {
