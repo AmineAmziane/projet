@@ -109,7 +109,7 @@ const SliderA = ({marks,max,first,last,defvalue}) => {
     <Typography variant="h6" className={classes.typo} gutterBottom>
         {first}
       </Typography>
-      <Typography variant="h6" className={classes.typo}  gutterBottom>
+      <Typography variant="h6" className={classes.typo} align='right' gutterBottom>
         {last}
       </Typography>
     </Grid>

@@ -3,6 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Head from './head.jsx';
 import Body from './body.jsx';
 import Foot from './foot.jsx';
+import Montant from './montant.jsx';
 
 const useStyles = makeStyles({
   root: {
@@ -17,16 +18,26 @@ const useStyles = makeStyles({
         margin:'4em auto',
         padding:'1em 2em',
     }
+  },
+  glb:{
+    display:'flex',
+    alignItems:'flex-start',
+    justifyContent:'space-around',
+    flexWrap:'wrap',
+    margin:'0 auto'
   }
 });
 
 const Index = () => {
   const classes = useStyles();
   return (
-    <div className={classes.root}>
-       <Head/>     
-       <Body/>
-       <Foot/>
+    <div className={classes.glb}>
+      <div className={classes.root}>  
+         <Head/>     
+         <Body/>
+         <Foot/>
+      </div>
+      <Montant/>
     </div>
   )
 }

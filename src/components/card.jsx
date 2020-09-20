@@ -10,10 +10,14 @@ const useStyles = makeStyles({
     borderRadius:15,
     textAlign:'center',
     display:'flex',
+    flexDirection: 'row',
+    justifyContent: 'flex-start',
+    boxSizing:'border-box',
+    overflow:'hidden',
     border:(props.selected)?'1px solid #2E5BCC':'none',
     '@media (max-width: 780px)' : {
         width: '30%',
-    }  
+    },
   }),
   img : {
     width:'100%',
@@ -42,7 +46,7 @@ const useStyles = makeStyles({
     fontFamily: 'orkneylight'
   }),
   cardAction:{
-   borderRadius:15
+   borderRadius:15,
   },
   infodiv: props=>({
     backgroundColor:(props.selected)?'#2E5BCC':'transparent',
@@ -52,7 +56,10 @@ const useStyles = makeStyles({
     borderBottomLeftRadius:10,
     borderBottomRightRadius:10,
     '@media (max-width: 780px)' : {
-        height:'auto',
+        height:'100px',
+    },
+    '@media (max-width: 500px)' : {
+        height:'150px',
     }
   })
 });
