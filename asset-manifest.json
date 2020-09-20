@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/projet/static/css/main.6fe44432.chunk.css",
+    "main.js": "/projet/static/js/main.2c7e5603.chunk.js",
+    "main.js.map": "/projet/static/js/main.2c7e5603.chunk.js.map",
+    "runtime-main.js": "/projet/static/js/runtime-main.71eea537.js",
+    "runtime-main.js.map": "/projet/static/js/runtime-main.71eea537.js.map",
+    "static/js/2.26377161.chunk.js": "/projet/static/js/2.26377161.chunk.js",
+    "static/js/2.26377161.chunk.js.map": "/projet/static/js/2.26377161.chunk.js.map",
+    "index.html": "/projet/index.html",
+    "precache-manifest.e4ef1c9afa14cbaa971b40874d1687e5.js": "/projet/precache-manifest.e4ef1c9afa14cbaa971b40874d1687e5.js",
+    "service-worker.js": "/projet/service-worker.js",
+    "static/css/main.6fe44432.chunk.css.map": "/projet/static/css/main.6fe44432.chunk.css.map",
+    "static/js/2.26377161.chunk.js.LICENSE.txt": "/projet/static/js/2.26377161.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/projet/static/media/Orkney-Regular.8b8f662d.otf",
+    "static/media/svg1.svg": "/projet/static/media/svg1.ce9bdf49.svg",
+    "static/media/svg2.svg": "/projet/static/media/svg2.dcb0b4d7.svg",
+    "static/media/svg3.svg": "/projet/static/media/svg3.f61f9840.svg",
+    "static/media/svg4.svg": "/projet/static/media/svg4.6ef0338f.svg",
+    "static/media/svg5.svg": "/projet/static/media/svg5.336337a8.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.71eea537.js",
+    "static/js/2.26377161.chunk.js",
+    "static/css/main.6fe44432.chunk.css",
+    "static/js/main.2c7e5603.chunk.js"
+  ]
+}
